@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using NicolasBooks.Models; //add this using statement
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -12,5 +13,7 @@ namespace NicolasBookStore.DataAccess.Data
             : base(options)
         {
         }
+
+        public DbSet<Category>Categories { get; set; } // add this line
     }
 }

@@ -70,7 +70,11 @@ Obviously it is not finding the file, Ill figure it out.
 
 5:18 I found out why my buttons wasnt working and appering, it was because I moved them from views>shared to the customer area instead of copy and pasting it. Eventhough I found the problem, Chritian gives me the magic.
 
+5:25 Modifying the database in the appsettings.json ((aspnet-)NicolasBookStore(-61B15D62-E9A3-472E-9480-03636B2E4A43))
 
+5:40 Im about to add the migrations with this command "add-migrations addDefaultIdentityMigration"
+
+5:45 Im not risking it so this is the name 20231101214237_addDefaultIdentityMigration
 
 
 

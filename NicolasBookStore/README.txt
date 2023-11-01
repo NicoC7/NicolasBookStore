@@ -66,5 +66,11 @@ Obviously it is not finding the file, Ill figure it out.
 
 4:53 I t was just the missing . cshtml Im feeling so dumb. :') :P
 
+5:03 I can run the project but my buttons are not working and there is no log in and resgister buttons.
+
+5:18 I found out why my buttons wasnt working and appering, it was because I moved them from views>shared to the customer area instead of copy and pasting it. Eventhough I found the problem, Chritian gives me the magic.
+
+
+
 
 

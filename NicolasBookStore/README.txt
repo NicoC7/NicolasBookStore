@@ -76,5 +76,7 @@ Obviously it is not finding the file, Ill figure it out.
 
 5:45 Im not risking it so this is the name 20231101214237_addDefaultIdentityMigration
 
+6:14 For now, there have been no issues. WELLL... Just a misspelling mistake with the MaxLength as MaxLenght
+
 
 

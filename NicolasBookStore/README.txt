@@ -55,5 +55,7 @@ Date: 11/1/2023
 
 9:18 I decided to crete a new project so I dont have problems pushing it to github.
 
+4:23 I finally could run the project. My mistake was the versions I was using so Used other versions and thats it. Intead of 5.0.11 I used 5.0.17.  :) :P
+
 
 

@@ -57,5 +57,14 @@ Date: 11/1/2023
 
 4:23 I finally could run the project. My mistake was the versions I was using so Used other versions and thats it. Intead of 5.0.11 I used 5.0.17.  :) :P
 
+4:24 Lets continue doing building the project.
+
+4:45 I almost mess the project up because I replace this {controller=Home} with this {area=Customer}
+
+4:52 Im getting thsi error InvalidOperationException: The layout view '~/Views/Shared/_Layout' could not be located. The following locations were searched: ~/Views/Shared/_Layout
+Obviously it is not finding the file, Ill figure it out.
+
+4:53 I t was just the missing . cshtml Im feeling so dumb. :') :P
+
 
 

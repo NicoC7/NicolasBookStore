@@ -63,7 +63,7 @@ namespace NicolasBookStore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");// Do not replace the controller=Home and add area=Customer
                 endpoints.MapRazorPages();
             });
         }

@@ -78,5 +78,7 @@ Obviously it is not finding the file, Ill figure it out.
 
 6:14 For now, there have been no issues. WELLL... Just a misspelling mistake with the MaxLength as MaxLenght
 
+8:01 I'm exhautes so Im going home. Ill work on this tomorrow. Im at the slide number 11.
+
 
 

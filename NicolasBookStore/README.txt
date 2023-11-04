@@ -80,5 +80,19 @@ Obviously it is not finding the file, Ill figure it out.
 
 8:01 I'm exhautes so Im going home. Ill work on this tomorrow. Im at the slide number 11.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Date: 11/4/2023
 
+12:27 I have been doing others assignments and I havent given much time to this so its time to finish it. My last advance was at the slide number 11. At this point I havent faced any big problem other than my stupidity.
+
+12:45 I found a typo and I already correct it. I named procedureName all in lowercase.
+
+1:07 I just finish adding the code to connect to the database in the SP_Call.cs	
+
+1:32 You know what Im tired of this. I will do it later. This trash always gives me errors. The param parameter on SP_Call is giving me error and in the UnitOfWork.cs the public void Save and Dispose is giving me error.
+Also to solve an error I added in the ApplicationDbContext.cs this code:
+        public static implicit operator ApplicationException(ApplicationDbContext v)
+        {
+            throw new NotImplementedException();
+        } 

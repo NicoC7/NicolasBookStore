@@ -12,9 +12,16 @@ namespace NicolasBooks.DataAccess.Repository
     {
 
         private readonly ApplicationDbContext _db;
+        private ApplicationException db;
+
         public  CategoryRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
+        }
+
+        public CategoryRepository(ApplicationException db)
+        {
+            this.db = db;
         }
 
         public void Update(Category category)

@@ -104,5 +104,7 @@ Also to solve an error I added in the ApplicationDbContext.cs this code:
 Date:11/7/2023
 
 4:30 I solved all the issues I go back to slides and in rhe CategoryRepository.cs the intellisence get me dirty and I was creating and Application exception intead of an application db context and I can run my project.
-And thx good you cancelled the class
+And thx good you cancelled the class.
+
+5:00 I was having an issue with the startup so i go back to the UnitOfWork.cs and I noticed that there was missing calling the his interfaces so I added that and the using statement and it worked.
 

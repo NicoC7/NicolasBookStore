@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NicolasBooks.DataAccess.Repository;
+using NicolasBooks.DataAccess.Repository.IRepository;
 using NicolasBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -34,6 +36,7 @@ namespace NicolasBookStore
 
             services.AddDefaultIdentity<IdentityUser>()//options => options.SignIn.RequireConfirmedAccount = true
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace NicolasBooks.DataAccess.Repository
 {
-    class UnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
 
         private readonly ApplicationDbContext _db; 

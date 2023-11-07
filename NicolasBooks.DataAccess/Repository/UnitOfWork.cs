@@ -12,7 +12,7 @@ namespace NicolasBooks.DataAccess.Repository
     class UnitOfWork
     {
 
-        private readonly ApplicationException _db; 
+        private readonly ApplicationDbContext _db; 
         private  UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
@@ -23,7 +23,7 @@ namespace NicolasBooks.DataAccess.Repository
         public ICategoryRepository Category { get; private set; }
         public  ISP_Call SP_Call { get; private set; }
 
-        public void  Disposes()
+        public void  Dispose()
         {
                 _db.Dispose();
         }

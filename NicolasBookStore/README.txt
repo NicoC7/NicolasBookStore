@@ -96,3 +96,13 @@ Also to solve an error I added in the ApplicationDbContext.cs this code:
         {
             throw new NotImplementedException();
         } 
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Date:11/7/2023
+
+4:30 I solved all the issues I go back to slides and in rhe CategoryRepository.cs the intellisence get me dirty and I was creating and Application exception intead of an application db context and I can run my project.
+And thx good you cancelled the class
+

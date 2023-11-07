@@ -18,12 +18,6 @@ namespace NicolasBooks.DataAccess.Repository
         {
             _db = db;
         }
-
-        public CategoryRepository(ApplicationException db)
-        {
-            this.db = db;
-        }
-
         public void Update(Category category)
         {
             //throw new NotImplementedException();

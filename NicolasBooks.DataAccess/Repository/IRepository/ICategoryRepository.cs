@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 namespace NicolasBooks.DataAccess.Repository.IRepository
 {
-    interface ICategoryRepository
+    public interface ICategoryRepository
     {
         void Update(Category category);
 

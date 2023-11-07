@@ -61,7 +61,7 @@ namespace NicolasBooks.DataAccess.Repository
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
                 sqlCon.Open();
-                var result = SqlMapper.QueryMultiple(sqlCon, param, procedureName, commandType: System.Data.CommandType.StoredProcedure);
+                var result = SqlMapper.QueryMultiple(sqlCon, procedureName, param,  commandType: System.Data.CommandType.StoredProcedure);
                 var item1 = result.Read<T1>().ToList(); //using statement added for linq "using System.Linq;"
                 var item2 = result.Read<T2>().ToList();
 

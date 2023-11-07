@@ -15,10 +15,5 @@ namespace NicolasBookStore.DataAccess.Data
         }
 
         public DbSet<Category>Categories { get; set; } // add this line
-
-        public static implicit operator ApplicationException(ApplicationDbContext v)
-        {
-            throw new NotImplementedException();
-        } // Fix an error
     }
 }

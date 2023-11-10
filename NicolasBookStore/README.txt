@@ -108,3 +108,9 @@ And thx good you cancelled the class.
 
 5:00 I was having an issue with the startup so i go back to the UnitOfWork.cs and I noticed that there was missing calling the his interfaces so I added that and the using statement and it worked.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Date: 11/10/2023
+
+10:39 I have to review the powerpoint from 0 and I saw I have missing something IRepository.
+

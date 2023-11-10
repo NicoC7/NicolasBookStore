@@ -16,6 +16,10 @@ namespace NicolasBookStore.DataAccess.Repository.IRepository
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
             string includeProperties = null // usefull for foreign key references
             );
+        T GetFirstOrDefault(
+            Expression<Func<T, bool>> filter = null,
+            string includeProperties = null
+            ); // I hadnt add this line
 
         void Add(T entity); //To add an entity
         void Remove(int id); // To remove an object or category 

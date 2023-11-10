@@ -118,5 +118,9 @@ Date: 11/10/2023
 
 11:05 Im getting a really strage error that I dont know how to solve.
 
-1:53 I set a class private instead of public.
+1:53 I set a class private instead of public. 
+
+2:02 I added the link to the layout in the dropdown then I run it and its working.
+
+2:56 I'm doing the selete and add button but i need to go to a class.
 

@@ -8,5 +8,6 @@ namespace NicolasBooks.DataAccess.Repository.IRepository
     {
         void Update(Category category);
         object GetAll(); // Adding this Line to resolve an error in the category controller
+        Category Get(int v); // Adding this line to fix issues
     }
 }

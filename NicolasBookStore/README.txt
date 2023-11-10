@@ -124,3 +124,9 @@ Date: 11/10/2023
 
 2:56 I'm doing the selete and add button but i need to go to a class.
 
+3:36 I finish my class and I will start working again on this assignment.
+
+3:40 I added the _EditAndBackToListButton.cshtml and the _CreateAndBackToListButton.cshtml files and I added the code.
+
+3:58 I modify the index.cshtml and Upsert.cshtml to apply the buttons functionality.
+

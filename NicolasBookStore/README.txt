@@ -136,3 +136,13 @@ Date: 11/10/2023
 
 5:16 Im starving and exhauted, im going home.
 
+Microsoft.Data.SqlClient.SqlException: 'Cannot open database "NicolasBookStore" requested by the login. The login failed.
+Login failed for user 'ACAD\W0823791'.'
+
+This exception was originally thrown at this call stack:
+    [External Code]
+    NicolasBooks.DataAccess.Repository.UnitOfWork.Save() in UnitOfWork.cs
+    NicolasBookStore.Areas.Admin.Controllers.CategoryController.Upsert(NicolasBooks.Models.Category) in CategoryController.cs
+    [External Code]
+
+

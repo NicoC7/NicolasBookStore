@@ -13,7 +13,7 @@ namespace NicolasBooks.DataAccess.Repository
     {
 
         private readonly ApplicationDbContext _db; 
-        private  UnitOfWork(ApplicationDbContext db)
+        public  UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             Category = new CategoryRepository(_db);

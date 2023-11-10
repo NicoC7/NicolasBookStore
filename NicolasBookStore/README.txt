@@ -118,3 +118,5 @@ Date: 11/10/2023
 
 11:05 Im getting a really strage error that I dont know how to solve.
 
+1:53 I set a class private instead of public.
+

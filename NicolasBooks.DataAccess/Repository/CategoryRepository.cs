@@ -18,6 +18,12 @@ namespace NicolasBooks.DataAccess.Repository
         {
             _db = db;
         }
+
+        public object GetAll() // new line added
+        {
+            throw new NotImplementedException();
+        }
+
         public void Update(Category category)
         {
             //throw new NotImplementedException();

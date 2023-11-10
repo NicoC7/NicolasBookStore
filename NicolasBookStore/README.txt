@@ -114,3 +114,7 @@ Date: 11/10/2023
 
 10:39 I have to review the powerpoint from 0 and I saw I have missing something IRepository.
 
+10:51 I add this "object GetAll();" in ICategoryRepository to resolve an issue in the Category controller in my Admin Areas Controllers.
+
+11:05 Im getting a really strage error that I dont know how to solve.
+

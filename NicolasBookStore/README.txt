@@ -130,3 +130,9 @@ Date: 11/10/2023
 
 3:58 I modify the index.cshtml and Upsert.cshtml to apply the buttons functionality.
 
+4:32 I add the API cal for delete. I dont what was happenning that was giving me a lot of errors.
+
+5:13 I finished adding all the code and the slides but I try to add a category and it doesnt work. the problem is with the quick solutions solve errors but they doesnt work to the app to work correctly
+
+5:16 Im starving and exhauted, im going home.
+

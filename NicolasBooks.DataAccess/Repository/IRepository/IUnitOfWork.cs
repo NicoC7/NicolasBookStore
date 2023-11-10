@@ -12,5 +12,7 @@ namespace NicolasBooks.DataAccess.Repository.IRepository
         ICategoryRepository Category { get; }
 
         ISP_Call SP_Call { get; }
+
+        void Save(); // Line added by the quick solution
     }
 }

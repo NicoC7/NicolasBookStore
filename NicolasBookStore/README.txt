@@ -145,4 +145,10 @@ This exception was originally thrown at this call stack:
     NicolasBookStore.Areas.Admin.Controllers.CategoryController.Upsert(NicolasBooks.Models.Category) in CategoryController.cs
     [External Code]
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Date: 11/13/2023
+
+12:51 I change the db connection to public and it doesnt work but it doesnt stop the application so basically what I did is add migrations and it wasnt stoping the app but it didmt add the category.
+
 

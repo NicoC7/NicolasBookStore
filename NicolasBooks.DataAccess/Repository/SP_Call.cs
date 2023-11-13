@@ -15,7 +15,7 @@ namespace NicolasBooks.DataAccess.Repository
 
         // Acces the database 
         private readonly ApplicationDbContext _db;
-        private static string ConnectionString = ""; // Needed to call the stored procedured
+        public static string ConnectionString = ""; // Needed to call the stored procedured
         private ApplicationException db;
 
         // Constructor to open a SQL Connection

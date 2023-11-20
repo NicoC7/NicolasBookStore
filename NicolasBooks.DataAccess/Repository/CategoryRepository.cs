@@ -12,21 +12,20 @@ namespace NicolasBooks.DataAccess.Repository
     {
 
         private readonly ApplicationDbContext _db;
-        private ApplicationException db;
 
         public  CategoryRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }
 
-        public object GetAll() // new line added
+        public object GetAll()
         {
             throw new NotImplementedException();
         }
 
         public void Update(Category category)
         {
-            //throw new NotImplementedException();
+            //throw new NotImplementedException()
             var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);
             if (objFromDb != null) //save changes
             {

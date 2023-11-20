@@ -36,7 +36,7 @@ namespace NicolasBookStore.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            return View();
+            return View(category);
         }
 
         [HttpPost]

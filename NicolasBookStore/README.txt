@@ -153,4 +153,8 @@ Date: 11/13/2023
 
 3:29 The database connection is working
 
+Date: 11/20/2023
+
+1:50 I havent do any changes to the project because it is not even working and now is worst because it is not linked with the database. So I dont know what to do.
+
 

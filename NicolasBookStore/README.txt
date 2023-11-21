@@ -157,4 +157,4 @@ Date: 11/20/2023
 
 1:50 I havent do any changes to the project because it is not even working and now is worst because it is not linked with the database. So I dont know what to do.
 
-
+21:15 As I couldnt figure out the issue with the database I continue with the part 3 and I already create the CoverType.cs in the Models folder.

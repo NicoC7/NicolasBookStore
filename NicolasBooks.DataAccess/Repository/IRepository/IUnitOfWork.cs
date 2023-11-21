@@ -14,6 +14,7 @@ namespace NicolasBooks.DataAccess.Repository.IRepository
         ISP_Call SP_Call { get; }
 
         ICoverTypeRepository CoverType { get; }
+        object Product { get; }
 
         void Save(); // Line added by the quick solution
     }

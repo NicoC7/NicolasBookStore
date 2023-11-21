@@ -171,3 +171,5 @@ Date: 11/20/2023
 
 22:20 Again I tryed to add the migrations and update the database to the products and it doesnt work...
 
+22:22 So im done with the part 3 section 1 and im going to continue with part 3 section 2.
+

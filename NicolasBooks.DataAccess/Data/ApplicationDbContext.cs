@@ -15,5 +15,6 @@ namespace NicolasBookStore.DataAccess.Data
         }
 
         public DbSet<Category>Categories { get; set; } // add this line
+        public object CoverTypes { get; internal set; }
     }
 }

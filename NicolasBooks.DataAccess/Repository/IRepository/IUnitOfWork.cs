@@ -13,6 +13,8 @@ namespace NicolasBooks.DataAccess.Repository.IRepository
 
         ISP_Call SP_Call { get; }
 
+        ICoverTypeRepository CoverType { get; }
+
         void Save(); // Line added by the quick solution
     }
 }

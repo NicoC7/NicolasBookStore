@@ -169,3 +169,5 @@ Date: 11/20/2023
 
 22:12 I will continue with the product to see if I can finish this part today.
 
+22:20 Again I tryed to add the migrations and update the database to the products and it doesnt work...
+

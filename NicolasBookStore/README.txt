@@ -167,5 +167,5 @@ Date: 11/20/2023
 
 21:53 I just add the index and upsert view, evendough it is not working im doing it to get the partial marks.
 
-
+22:12 I will continue with the product to see if I can finish this part today.
 

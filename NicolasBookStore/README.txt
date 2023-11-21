@@ -160,3 +160,12 @@ Date: 11/20/2023
 21:15 As I couldnt figure out the issue with the database I continue with the part 3 and I already create the CoverType.cs in the Models folder.
 
 21:34 I have added the CoverTypeRepository and ICoverTypeRepository and the CoverTypeRepository is giving an error in the firstordefault extension method that I havent been able to figure out.
+
+21:43 I tryed to update the database and it failed...
+
+21:45 Nothing is working and I dont know what to do, I already tryed everything even starting all over again and didnt worked. I will talk to u tomorrow to see if i can see a light at the end of this dark and long tunnel of adversity and failure.
+
+21:53 I just add the index and upsert view, evendough it is not working im doing it to get the partial marks.
+
+
+

@@ -18,6 +18,11 @@ namespace NicolasBooks.DataAccess.Repository
             _db = db;
         }
 
+        public object GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Update(CoverType coverType)
         {
             ///throw new NotImplementedException();

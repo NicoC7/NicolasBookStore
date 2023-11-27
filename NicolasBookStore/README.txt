@@ -183,4 +183,8 @@ Date: 11/27/2023
 
 4:23 Done the CategoryRepository and the iCategoryRepository.
 
+4:27 Now I'm moving to the covertyperepository and its interface.
+
+4:30 Im having some issues with the accesibility of all interfaces but I will figure that out latter
+
 

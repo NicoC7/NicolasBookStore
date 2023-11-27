@@ -8,12 +8,8 @@ using System.Threading.Tasks;
 
 namespace NicolasBooks.DataAccess.Repository.IRepository
 {
-    public interface ICoverTypeRepository 
+    public interface ICoverTypeRepository : IRepository<CoverType>
     {
         void Update(CoverType coverType);
-        CoverType Get(int v);
-        void Remove(int id);
-        object GetAll();
-        void Add(CoverType coverType);
     }
 }

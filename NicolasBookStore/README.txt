@@ -185,6 +185,11 @@ Date: 11/27/2023
 
 4:27 Now I'm moving to the covertyperepository and its interface.
 
-4:30 Im having some issues with the accesibility of all interfaces but I will figure that out latter
+4:30 Im having some issues with the accesibility of all interfaces but I will figure that out later
+
+4:33 I saw that the namespace in the interface of the covertype was wrong so I modifyed and corrected. now Im moving on to the productrepository and its interface.
+
+4:36 For the productRepository I had a missing using statement and a misspelling in the name space and in the interface I didnt add any using statement and a missing void update but still having problems with the interface accesibilty.
+
 
 

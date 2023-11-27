@@ -26,8 +26,6 @@ namespace NicolasBooks.DataAccess.Repository
         public ISP_Call SP_Call { get; private set; }
         public IProductRepository Product { get; private set; }
 
-        object IUnitOfWork.Product => throw new NotImplementedException();
-
         public void Dispose()
         {
             _db.Dispose();

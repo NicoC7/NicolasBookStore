@@ -197,3 +197,5 @@ Date: 11/27/2023
 
 4:50 I rewrite the code and now im having an error implementing the interface.
 
+4:50 Finally to finish with the Data folder I modify the unit of work and correct some types I have problems accesing to the interface I went to the interface and correct the namespace and get ride of extra lines.
+

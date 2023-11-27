@@ -8,14 +8,11 @@ namespace NicolasBooks.DataAccess.Repository.IRepository
 {
     public interface IUnitOfWork : IDisposable
     {
-
         ICategoryRepository Category { get; }
-
         ISP_Call SP_Call { get; }
-
         ICoverTypeRepository CoverType { get; }
-        object Product { get; }
+        IProductRepository Product { get; }
 
-        void Save(); // Line added by the quick solution
+        void Save();
     }
 }

@@ -179,4 +179,8 @@ Date: 11/27/2023
 
 4:15 I have been working in a copy of the project for a couple of hours and now I will try to solve my issues in this assignment.
 
+4:22 I'm going folder by folder camparing my project with the one you gave us.
+
+4:23 Done the CategoryRepository and the iCategoryRepository.
+
 

@@ -191,5 +191,5 @@ Date: 11/27/2023
 
 4:36 For the productRepository I had a missing using statement and a misspelling in the name space and in the interface I didnt add any using statement and a missing void update but still having problems with the interface accesibilty.
 
-
+4:42 In the Repository everything was good but in the interfaces there was a lowercase methods that should be typed in camelcase.
 

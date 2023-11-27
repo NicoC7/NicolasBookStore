@@ -5,26 +5,24 @@ using System.Linq.Expressions;
 using System.Text;
 namespace NicolasBookStore.DataAccess.Repository.IRepository
 {
-    interface IRepository<T> where T : class
+    public interface IRepository<T> where T : class
     {
+        T Get(int id);
 
-        T get(int id); // Retrive a category from the database by id 
-        //List of all categories
-
-        IEnumerable<T> getAll(
+        IEnumerable<T> GetAll(
             Expression<Func<T, bool>> filter = null,
-            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-            string includeProperties = null // usefull for foreign key references
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderby = null,
+            string includeProperties = null
             );
         T GetFirstOrDefault(
             Expression<Func<T, bool>> filter = null,
             string includeProperties = null
-            ); // I hadnt add this line
+            );
+        void Add(T entity);
+        void Remove(int id);
 
-        void Add(T entity); //To add an entity
-        void Remove(int id); // To remove an object or category 
-        void Remove(T entity); // Another way to remove an object or category 
-        void RemoveRange(IEnumerable<T> Entity); // Removes a complete range of entities  
+        void Remove(T entity);
+        void RemoveRange(IEnumerable<T> entity);
 
     }
 }

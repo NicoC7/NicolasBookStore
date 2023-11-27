@@ -12,25 +12,14 @@ namespace NicolasBooks.DataAccess.Repository
 {
     public class SP_Call : ISP_Call
     {
-
-        // Acces the database 
         private readonly ApplicationDbContext _db;
-        public static string ConnectionString = ""; // Needed to call the stored procedured
-        private ApplicationException db;
+        private static string ConnectionString = "";
 
-        // Constructor to open a SQL Connection
         public SP_Call(ApplicationDbContext db)
         {
             _db = db;
             ConnectionString = db.Database.GetDbConnection().ConnectionString;
         }
-
-        public SP_Call(ApplicationException db)
-        {
-            this.db = db;
-        }
-
-        // Implements the  ISP_Call interface
         public void Dispose()
         {
             _db.Dispose();
@@ -40,10 +29,8 @@ namespace NicolasBooks.DataAccess.Repository
         {
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
-
                 sqlCon.Open();
                 sqlCon.Execute(procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
-
             }
         }
 
@@ -61,17 +48,15 @@ namespace NicolasBooks.DataAccess.Repository
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
                 sqlCon.Open();
-                var result = SqlMapper.QueryMultiple(sqlCon, procedureName, param,  commandType: System.Data.CommandType.StoredProcedure);
-                var item1 = result.Read<T1>().ToList(); //using statement added for linq "using System.Linq;"
+                var result = SqlMapper.QueryMultiple(sqlCon, procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
+                var item1 = result.Read<T1>().ToList();
                 var item2 = result.Read<T2>().ToList();
 
-                if(item1 != null && item2 != null)
+                if (item1 != null && item2 != null)
                 {
                     return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(item1, item2);
                 }
-
             }
-
             return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(new List<T1>(), new List<T2>());
         }
 
@@ -85,14 +70,13 @@ namespace NicolasBooks.DataAccess.Repository
             }
         }
 
-        public T Single<T>(string procedureName, DynamicParameters param = null)
+        public T single<T>(string procedureName, DynamicParameters param = null)
         {
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
                 sqlCon.Open();
                 return (T)Convert.ChangeType(sqlCon.ExecuteScalar<T>(procedureName, param, commandType: System.Data.CommandType.StoredProcedure), typeof(T));
             }
-
         }
     }
 }

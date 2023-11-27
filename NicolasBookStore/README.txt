@@ -193,3 +193,7 @@ Date: 11/27/2023
 
 4:42 In the Repository everything was good but in the interfaces there was a lowercase methods that should be typed in camelcase.
 
+4:47 I was checking the SP_Call and there was nothing to change except by an extra statement to connect to the db.
+
+4:50 I rewrite the code and now im having an error implementing the interface.
+

@@ -173,3 +173,10 @@ Date: 11/20/2023
 
 22:22 So im done with the part 3 section 1 and im going to continue with part 3 section 2.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Date: 11/27/2023
+
+4:15 I have been working in a copy of the project for a couple of hours and now I will try to solve my issues in this assignment.
+
+
